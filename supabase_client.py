@@ -57,7 +57,8 @@ class SupabaseClient:
             campaign_data = {
                 "product_description": product_description,
                 "target_audience_urls": target_audience_urls,
-                "status": "pending"
+                "status": "pending",
+                "generated_campaign": []  # Initialize with empty array
             }
             
             response = self.client.table("campaigns").insert(campaign_data).execute()
