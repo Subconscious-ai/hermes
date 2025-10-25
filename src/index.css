@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Primary - Navy (Trust & Intelligence) */
+    --navy-900: 222 47% 11%;
+    --navy-800: 217 33% 17%;
+    --navy-700: 215 25% 27%;
+    
+    /* Accent - Purple (Innovation & Energy) */
+    --purple-600: 271 91% 65%;
+    --purple-500: 271 81% 71%;
+    --purple-400: 270 71% 76%;
+    --purple-100: 270 100% 96%;
+    
+    /* Interactive - Blue (Calls to Action) */
+    --blue-600: 217 91% 60%;
+    --blue-500: 217 91% 60%;
+    --blue-400: 213 97% 67%;
+    --blue-100: 214 95% 93%;
+    --blue-50: 214 100% 97%;
+    
+    /* Success States */
+    --green-600: 142 71% 45%;
+    --green-500: 142 76% 36%;
+    --green-100: 141 84% 93%;
+    --green-50: 138 76% 97%;
+    
+    /* Neutral - Content */
+    --gray-900: 222 47% 11%;
+    --gray-700: 215 14% 34%;
+    --gray-600: 215 16% 47%;
+    --gray-500: 220 9% 46%;
+    --gray-400: 218 11% 65%;
+    --gray-300: 216 12% 84%;
+    --gray-200: 214 32% 91%;
+    --gray-100: 220 14% 96%;
+    --gray-50: 210 20% 98%;
+    
+    /* Semantic tokens */
+    --background: 210 20% 98%;
+    --foreground: 222 47% 11%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    
+    --primary: 271 91% 65%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 217 91% 60%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+    
+    --muted: 220 14% 96%;
+    --muted-foreground: 215 16% 47%;
+    
+    --accent: 270 100% 96%;
+    --accent-foreground: 271 91% 65%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 216 12% 84%;
+    --input: 214 32% 91%;
+    --ring: 271 91% 65%;
+    
+    --radius: 0.5rem;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(271 91% 65%), hsl(217 91% 60%));
+    --gradient-success: linear-gradient(135deg, hsl(271 91% 65%), hsl(217 91% 60%), hsl(142 71% 45%));
+    --gradient-subtle: linear-gradient(135deg, hsl(270 100% 96%), hsl(214 95% 93%), hsl(141 84% 93%));
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+    --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(135deg, hsl(271 91% 65%), hsl(217 91% 60%));
+  }
+  
+  .gradient-success {
+    background: linear-gradient(135deg, hsl(271 91% 65%), hsl(217 91% 60%), hsl(142 71% 45%));
+  }
+  
+  .gradient-subtle {
+    background: linear-gradient(135deg, hsl(270 100% 96%), hsl(214 95% 93%), hsl(141 84% 93%));
+  }
+}
