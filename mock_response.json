@@ -1,0 +1,46 @@
+{
+  "id": "campaign_123456789",
+  "created_at": "2024-01-15T10:30:00Z",
+  "product_description": "AI-powered email marketing automation tool for SaaS companies",
+  "target_audience_urls": [
+    "https://linkedin.com/in/saas-marketing-director",
+    "https://linkedin.com/in/growth-marketing-manager"
+  ],
+  "winning_insight_summary": "Your audience responds 73% better to messaging that emphasizes 'time-saving automation' over 'advanced AI features'. They prioritize solutions that integrate seamlessly into their existing workflow without requiring extensive training.",
+  "full_subconscious_results": {
+    "experiment_id": "exp_abc123",
+    "status": "completed",
+    "tested_messages": [
+      { "angle": "time_saving_simplicity", "score": 9.1 },
+      { "angle": "advanced_ai_features", "score": 5.3 },
+      { "angle": "cost_reduction", "score": 7.2 }
+    ],
+    "audience_insights": {
+      "primary_pain_points": ["tool complexity", "implementation time", "team adoption"]
+    }
+  },
+  "final_llm_prompt": "Based on behavioral analysis showing 73% higher engagement with 'time-saving automation' messaging, write a 3-email nurture sequence for SaaS marketing directors. Focus on workflow integration and simplicity over technical features. Each email should: 1) Address their pain point of tool complexity, 2) Emphasize quick implementation and social proof, 3) End with a soft CTA. Tone: Professional but approachable.",
+  "generated_campaign": [
+    {
+      "email_number": 1,
+      "subject": "Stop wrestling with complex marketing tools",
+      "preview_text": "There's a simpler way to automate your email campaigns...",
+      "body": "<p>Hi [First Name],</p><p>I know you're juggling multiple marketing tools, and each one seems to require a PhD to operate effectively. What if your email automation platform worked exactly how you think it should?</p><p>✅ Set up in under 10 minutes<br>✅ Integrates with your existing CRM<br>✅ No training required for your team</p><p>SoundToo, a SaaS company just like yours, saw 40% better email performance in their first week. Want to see how they did it?</p><p>Best,<br>[Your Name]</p>",
+      "cta": "See the 10-minute setup demo"
+    },
+    {
+      "email_number": 2,
+      "subject": "The 10-minute setup that changed everything",
+      "preview_text": "SoundToo's marketing director shares her story...",
+      "body": "<p>Hi [First Name],</p><p>\"I was skeptical. Another email tool promising easy setup? Sure.\"</p><p>That's what Sarah, Marketing Director at SoundToo, told me last month. But here's what happened:</p><p>⏱️ Day 1: Complete setup in 8 minutes<br>📈 Week 1: 40% increase in email engagement<br>🎯 Month 1: 25% more qualified leads</p><p>No consultants. No training sessions. Just results. The secret? Our platform thinks like you do, not like an engineer.</p><p>Best,<br>[Your Name]</p>",
+      "cta": "Read Sarah's full case study"
+    },
+    {
+      "email_number": 3,
+      "subject": "Last chance: Join the simple automation revolution",
+      "preview_text": "This is your final invitation...",
+      "body": "<p>Hi [First Name],</p><p>This is my final email. You have two choices:</p><p>1️⃣ Keep struggling with your current complex setup<br>2️⃣ Join the 500+ SaaS companies using simple, powerful automation</p><p>Over the past week, I've shown you how simple setup saves 300+ hours annually and shared real case studies. Now it's decision time.</p><p>Ready to stop wrestling with complex tools?</p><p>Best,<br>[Your Name]</p>",
+      "cta": "Start your simple setup today"
+    }
+  ]
+}
