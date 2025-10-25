@@ -1,0 +1,564 @@
+{
+  "id": "exp_mock_20251025162846",
+  "created_at": "2025-10-25T20:29:12.153723Z",
+  "product_description": "AI-powered email marketing automation for B2B SaaS companies",
+  "target_audience_urls": [
+    "https://linkedin.com/in/marketing-director",
+    "https://linkedin.com/in/growth-manager"
+  ],
+  "winning_insight_summary": "Your target audience for 'AI-powered email marketing automation for B2B SaaS companies' segments into 3 distinct mindsets. The largest segment, Data-Driven Decision Makers (38% of audience), responds most strongly to messaging that emphasizes 'Time Savings'. Our analysis shows a 62% higher engagement rate when leading with this value proposition compared to alternative approaches. Each mindset segment requires tailored messaging to maximize campaign effectiveness.",
+  "full_subconscious_results": {
+    "experiment_id": "exp_mock_20251025162846",
+    "status": "completed",
+    "created_at": "2025-10-25T20:28:46.544899Z",
+    "sample_size": 100,
+    "confidence_level": "High",
+    "mindset_segments": [
+      {
+        "name": "Data-Driven Decision Makers",
+        "percentage": 38,
+        "characteristics": "Prioritize comprehensive analytics and evidence-based approaches"
+      },
+      {
+        "name": "Story-Focused Engagers",
+        "percentage": 36,
+        "characteristics": "Respond strongly to personal narratives and testimonials"
+      },
+      {
+        "name": "Results-Oriented Pragmatists",
+        "percentage": 26,
+        "characteristics": "Focus on outcomes and ROI over process details"
+      }
+    ],
+    "amce_results": [
+      {
+        "mindset": "Data-Driven Decision Makers",
+        "percentage": 38,
+        "effects": [
+          {
+            "attribute": "Custom Messaging Angle",
+            "level": "Time Savings",
+            "amce": -0.05,
+            "lower_bound": -0.18,
+            "upper_bound": 0.08
+          },
+          {
+            "attribute": "Custom Messaging Angle",
+            "level": "Revenue Growth",
+            "amce": -0.4,
+            "lower_bound": -0.5,
+            "upper_bound": -0.27
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Time Savings & Efficiency",
+            "amce": 0.88,
+            "lower_bound": 0.83,
+            "upper_bound": 0.96
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Data-Driven Insights",
+            "amce": 0.06,
+            "lower_bound": -0.05,
+            "upper_bound": 0.18
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Cost Reduction & ROI",
+            "amce": 0.49,
+            "lower_bound": 0.43,
+            "upper_bound": 0.56
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Innovation & Competitive Edge",
+            "amce": -0.08,
+            "lower_bound": -0.16,
+            "upper_bound": 0.04
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Ease of Use & Simplicity",
+            "amce": 0.3,
+            "lower_bound": 0.2,
+            "upper_bound": 0.44
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Brief Customer Quotes",
+            "amce": -0.45,
+            "lower_bound": -0.59,
+            "upper_bound": -0.3
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Detailed Case Studies",
+            "amce": 0.03,
+            "lower_bound": -0.06,
+            "upper_bound": 0.12
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Data & Statistics",
+            "amce": 0.68,
+            "lower_bound": 0.61,
+            "upper_bound": 0.78
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Industry Awards",
+            "amce": 0.88,
+            "lower_bound": 0.81,
+            "upper_bound": 1.0
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Expert Testimonials",
+            "amce": -0.22,
+            "lower_bound": -0.36,
+            "upper_bound": -0.1
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Immediate (0-1 month)",
+            "amce": 0.22,
+            "lower_bound": 0.09,
+            "upper_bound": 0.29
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Quick (1-3 months)",
+            "amce": 0.6,
+            "lower_bound": 0.54,
+            "upper_bound": 0.69
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Standard (3-6 months)",
+            "amce": -0.13,
+            "lower_bound": -0.21,
+            "upper_bound": -0.0
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Gradual (6-12 months)",
+            "amce": 0.37,
+            "lower_bound": 0.31,
+            "upper_bound": 0.44
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Long-term (12+ months)",
+            "amce": 0.48,
+            "lower_bound": 0.37,
+            "upper_bound": 0.6
+          }
+        ]
+      },
+      {
+        "mindset": "Story-Focused Engagers",
+        "percentage": 36,
+        "effects": [
+          {
+            "attribute": "Custom Messaging Angle",
+            "level": "Time Savings",
+            "amce": -0.16,
+            "lower_bound": -0.25,
+            "upper_bound": -0.04
+          },
+          {
+            "attribute": "Custom Messaging Angle",
+            "level": "Revenue Growth",
+            "amce": 0.06,
+            "lower_bound": -0.02,
+            "upper_bound": 0.17
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Time Savings & Efficiency",
+            "amce": -0.22,
+            "lower_bound": -0.32,
+            "upper_bound": -0.15
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Data-Driven Insights",
+            "amce": -0.32,
+            "lower_bound": -0.43,
+            "upper_bound": -0.22
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Cost Reduction & ROI",
+            "amce": -0.05,
+            "lower_bound": -0.11,
+            "upper_bound": 0.05
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Innovation & Competitive Edge",
+            "amce": 0.32,
+            "lower_bound": 0.24,
+            "upper_bound": 0.37
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Ease of Use & Simplicity",
+            "amce": 0.87,
+            "lower_bound": 0.81,
+            "upper_bound": 1.01
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Brief Customer Quotes",
+            "amce": 0.0,
+            "lower_bound": -0.13,
+            "upper_bound": 0.06
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Detailed Case Studies",
+            "amce": -0.13,
+            "lower_bound": -0.19,
+            "upper_bound": -0.02
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Data & Statistics",
+            "amce": -0.38,
+            "lower_bound": -0.46,
+            "upper_bound": -0.28
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Industry Awards",
+            "amce": -0.37,
+            "lower_bound": -0.46,
+            "upper_bound": -0.31
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Expert Testimonials",
+            "amce": -0.2,
+            "lower_bound": -0.25,
+            "upper_bound": -0.14
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Immediate (0-1 month)",
+            "amce": -0.23,
+            "lower_bound": -0.32,
+            "upper_bound": -0.16
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Quick (1-3 months)",
+            "amce": -0.2,
+            "lower_bound": -0.31,
+            "upper_bound": -0.07
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Standard (3-6 months)",
+            "amce": -0.05,
+            "lower_bound": -0.1,
+            "upper_bound": 0.03
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Gradual (6-12 months)",
+            "amce": -0.05,
+            "lower_bound": -0.12,
+            "upper_bound": 0.05
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Long-term (12+ months)",
+            "amce": 0.43,
+            "lower_bound": 0.34,
+            "upper_bound": 0.56
+          }
+        ]
+      },
+      {
+        "mindset": "Results-Oriented Pragmatists",
+        "percentage": 26,
+        "effects": [
+          {
+            "attribute": "Custom Messaging Angle",
+            "level": "Time Savings",
+            "amce": 0.32,
+            "lower_bound": 0.26,
+            "upper_bound": 0.47
+          },
+          {
+            "attribute": "Custom Messaging Angle",
+            "level": "Revenue Growth",
+            "amce": 0.7,
+            "lower_bound": 0.65,
+            "upper_bound": 0.79
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Time Savings & Efficiency",
+            "amce": -0.14,
+            "lower_bound": -0.21,
+            "upper_bound": -0.05
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Data-Driven Insights",
+            "amce": -0.37,
+            "lower_bound": -0.47,
+            "upper_bound": -0.31
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Cost Reduction & ROI",
+            "amce": -0.17,
+            "lower_bound": -0.25,
+            "upper_bound": -0.1
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Innovation & Competitive Edge",
+            "amce": 0.62,
+            "lower_bound": 0.52,
+            "upper_bound": 0.69
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Ease of Use & Simplicity",
+            "amce": -0.05,
+            "lower_bound": -0.12,
+            "upper_bound": 0.05
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Brief Customer Quotes",
+            "amce": 0.13,
+            "lower_bound": 0.02,
+            "upper_bound": 0.19
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Detailed Case Studies",
+            "amce": -0.4,
+            "lower_bound": -0.52,
+            "upper_bound": -0.28
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Data & Statistics",
+            "amce": 0.63,
+            "lower_bound": 0.57,
+            "upper_bound": 0.73
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Industry Awards",
+            "amce": -0.22,
+            "lower_bound": -0.33,
+            "upper_bound": -0.15
+          },
+          {
+            "attribute": "Social Proof Depth",
+            "level": "Expert Testimonials",
+            "amce": 0.9,
+            "lower_bound": 0.8,
+            "upper_bound": 1.01
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Immediate (0-1 month)",
+            "amce": 0.75,
+            "lower_bound": 0.61,
+            "upper_bound": 0.85
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Quick (1-3 months)",
+            "amce": -0.37,
+            "lower_bound": -0.49,
+            "upper_bound": -0.24
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Standard (3-6 months)",
+            "amce": -0.37,
+            "lower_bound": -0.51,
+            "upper_bound": -0.25
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Gradual (6-12 months)",
+            "amce": 0.42,
+            "lower_bound": 0.3,
+            "upper_bound": 0.53
+          },
+          {
+            "attribute": "Implementation Timeline",
+            "level": "Long-term (12+ months)",
+            "amce": 0.58,
+            "lower_bound": 0.48,
+            "upper_bound": 0.67
+          }
+        ]
+      }
+    ],
+    "willingness_to_pay": {
+      "Data-Driven Decision Makers": {
+        "top_preferences": [
+          {
+            "attribute": "Custom Messaging Angle",
+            "level": "Time Savings",
+            "preference_strength": 0.82
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Data-Driven Insights",
+            "preference_strength": 0.78
+          }
+        ]
+      },
+      "Story-Focused Engagers": {
+        "top_preferences": [
+          {
+            "attribute": "Custom Messaging Angle",
+            "level": "Time Savings",
+            "preference_strength": 0.76
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Data-Driven Insights",
+            "preference_strength": 0.7
+          }
+        ]
+      },
+      "Results-Oriented Pragmatists": {
+        "top_preferences": [
+          {
+            "attribute": "Custom Messaging Angle",
+            "level": "Time Savings",
+            "preference_strength": 0.71
+          },
+          {
+            "attribute": "Value Proposition Focus",
+            "level": "Data-Driven Insights",
+            "preference_strength": 0.74
+          }
+        ]
+      }
+    },
+    "insights": {
+      "winning_messaging_angle": "Custom Messaging Angle",
+      "top_performing_attribute": "Time Savings",
+      "segment_recommendations": [
+        {
+          "mindset": "Data-Driven Decision Makers",
+          "percentage": 38,
+          "recommended_approach": "For Data-Driven Decision Makers (38% of audience): Emphasize comprehensive analytics and ROI metrics Provide detailed case studies with quantifiable results Highlight data-driven decision making capabilities",
+          "key_messages": [
+            "Emphasize comprehensive analytics and ROI metrics",
+            "Provide detailed case studies with quantifiable results",
+            "Highlight data-driven decision making capabilities"
+          ]
+        },
+        {
+          "mindset": "Story-Focused Engagers",
+          "percentage": 36,
+          "recommended_approach": "For Story-Focused Engagers (36% of audience): Lead with compelling customer success stories Use emotional narratives and personal testimonials Show real-world transformation examples",
+          "key_messages": [
+            "Lead with compelling customer success stories",
+            "Use emotional narratives and personal testimonials",
+            "Show real-world transformation examples"
+          ]
+        },
+        {
+          "mindset": "Results-Oriented Pragmatists",
+          "percentage": 26,
+          "recommended_approach": "For Results-Oriented Pragmatists (26% of audience): Focus on immediate outcomes and quick wins Demonstrate clear ROI and time-to-value Emphasize practical implementation and results",
+          "key_messages": [
+            "Focus on immediate outcomes and quick wins",
+            "Demonstrate clear ROI and time-to-value",
+            "Emphasize practical implementation and results"
+          ]
+        }
+      ],
+      "summary": "Your target audience for 'AI-powered email marketing automation for B2B SaaS companies' segments into 3 distinct mindsets. The largest segment, Data-Driven Decision Makers (38% of audience), responds most strongly to messaging that emphasizes 'Time Savings'. Our analysis shows a 62% higher engagement rate when leading with this value proposition compared to alternative approaches. Each mindset segment requires tailored messaging to maximize campaign effectiveness."
+    },
+    "attributes": [
+      {
+        "name": "Custom Messaging Angle",
+        "levels": [
+          "Time Savings",
+          "Revenue Growth"
+        ]
+      },
+      {
+        "name": "Value Proposition Focus",
+        "levels": [
+          "Time Savings & Efficiency",
+          "Data-Driven Insights",
+          "Cost Reduction & ROI",
+          "Innovation & Competitive Edge",
+          "Ease of Use & Simplicity"
+        ]
+      },
+      {
+        "name": "Social Proof Depth",
+        "levels": [
+          "Brief Customer Quotes",
+          "Detailed Case Studies",
+          "Data & Statistics",
+          "Industry Awards",
+          "Expert Testimonials"
+        ]
+      },
+      {
+        "name": "Implementation Timeline",
+        "levels": [
+          "Immediate (0-1 month)",
+          "Quick (1-3 months)",
+          "Standard (3-6 months)",
+          "Gradual (6-12 months)",
+          "Long-term (12+ months)"
+        ]
+      }
+    ],
+    "metadata": {
+      "product_description": "AI-powered email marketing automation for B2B SaaS companies",
+      "audience_urls": [
+        "https://linkedin.com/in/marketing-director",
+        "https://linkedin.com/in/growth-manager"
+      ],
+      "total_tasks": 1000,
+      "respondent_count": 2
+    }
+  },
+  "final_llm_prompt": "You are an expert B2B email copywriter specializing in behavioral science and personalization.\n\n**YOUR TASK:**\nCreate a 3-email campaign sequence for the following product, using insights from behavioral research to maximize engagement and conversion.\n\n**PRODUCT DESCRIPTION:**\nAI-powered email marketing automation for B2B SaaS companies\n\n**BEHAVIORAL RESEARCH INSIGHTS:**\n\nWe conducted a conjoint analysis experiment with your target audience and discovered 3 distinct behavioral mindsets:\n\n- **Data-Driven Decision Makers** (38%): Prioritize comprehensive analytics and evidence-based approaches\n- **Story-Focused Engagers** (36%): Respond strongly to personal narratives and testimonials\n- **Results-Oriented Pragmatists** (26%): Focus on outcomes and ROI over process details\n\n**KEY FINDING:**\nYour target audience for 'AI-powered email marketing automation for B2B SaaS companies' segments into 3 distinct mindsets. The largest segment, Data-Driven Decision Makers (38% of audience), responds most strongly to messaging that emphasizes 'Time Savings'. Our analysis shows a 62% higher engagement rate when leading with this value proposition compared to alternative approaches. Each mindset segment requires tailored messaging to maximize campaign effectiveness.\n\n**WINNING MESSAGING ANGLE:** Custom Messaging Angle\n\n**SEGMENT-SPECIFIC RECOMMENDATIONS:**\n**For Data-Driven Decision Makers (38%):**\n  - Emphasize comprehensive analytics and ROI metrics\n  - Provide detailed case studies with quantifiable results\n  - Highlight data-driven decision making capabilities\n\n**For Story-Focused Engagers (36%):**\n  - Lead with compelling customer success stories\n  - Use emotional narratives and personal testimonials\n  - Show real-world transformation examples\n\n**For Results-Oriented Pragmatists (26%):**\n  - Focus on immediate outcomes and quick wins\n  - Demonstrate clear ROI and time-to-value\n  - Emphasize practical implementation and results\n\n**EMAIL SEQUENCE REQUIREMENTS:**\n\nGenerate exactly 3 emails following this structure:\n\n**Email 1 - Introduction & Hook:**\n- Target the largest mindset segment (Data-Driven Decision Makers)\n- Lead with the winning messaging angle: \"Custom Messaging Angle\"\n- Create curiosity and establish relevance\n- Keep it short (150-200 words)\n- Include a soft CTA (e.g., \"Learn more\", \"See how it works\")\n\n**Email 2 - Deep Value & Proof:**\n- Address the second-largest segment (Story-Focused Engagers)\n- Provide social proof aligned with their preferences\n- Include specific benefits and outcomes\n- Length: 200-250 words\n- CTA: \"Schedule a demo\" or \"Start free trial\"\n\n**Email 3 - Final Push & FOMO:**\n- Multi-segment appeal combining top insights\n- Create urgency without being pushy\n- Overcome final objections\n- Strong, clear CTA\n- Length: 150-200 words\n\n**FORMATTING REQUIREMENTS:**\n- Professional B2B tone (conversational but credible)\n- Clear subject lines (under 60 characters)\n- Scannable structure with short paragraphs\n- Avoid excessive exclamation points\n- Each email should stand alone while building on the sequence\n\n**OUTPUT FORMAT:**\nReturn a valid JSON object with this exact structure:\n\n{\n  \"emails\": [\n    {\n      \"email_number\": 1,\n      \"subject_line\": \"Subject here\",\n      \"email_body\": \"Full email text here...\",\n      \"cta_text\": \"CTA button text\",\n      \"target_mindset\": \"Data-Driven Decision Makers\",\n      \"key_insight_used\": \"The specific behavioral insight you emphasized\"\n    },\n    {\n      \"email_number\": 2,\n      \"subject_line\": \"Subject here\",\n      \"email_body\": \"Full email text here...\",\n      \"cta_text\": \"CTA button text\",\n      \"target_mindset\": \"Story-Focused Engagers\",\n      \"key_insight_used\": \"The specific behavioral insight you emphasized\"\n    },\n    {\n      \"email_number\": 3,\n      \"subject_line\": \"Subject here\",\n      \"email_body\": \"Full email text here...\",\n      \"cta_text\": \"CTA button text\",\n      \"target_mindset\": \"Multi-segment\",\n      \"key_insight_used\": \"The specific behavioral insight you emphasized\"\n    }\n  ],\n  \"campaign_strategy\": \"Brief explanation of the overall campaign strategy and how it leverages the behavioral insights\"\n}\n\nGenerate the email campaign now:",
+  "generated_campaign": [
+    {
+      "email_number": 1,
+      "subject": "Unlock Time Savings with AI-Driven Insights",
+      "preview_text": "Unlock Time Savings with AI-Driven Insights",
+      "body": "Dear Innovator,\n\nIn today's fast-paced B2B SaaS landscape, your time is as valuable as your data. That's why we've engineered a solution that speaks directly to your need for efficiency and evidence-based decision-making. Imagine a world where your email marketing isn't just automated but is powered by AI, designed to optimize every decision with comprehensive analytics.\n\nOur platform doesn't just save you time; it turns your time into results. By leveraging cutting-edge AI, we provide you with not only data but actionable insights that drive your business forward. This is more than email marketing automation; it's your pathway to smarter, data-driven decision-making.\n\nCurious to see how it works? Dive deeper into the future of email marketing.\n\nBest,\n[Your Company Name]",
+      "cta": "Learn More"
+    },
+    {
+      "email_number": 2,
+      "subject": "Real Stories, Real Success with AI Email Automation",
+      "preview_text": "Real Stories, Real Success with AI Email Automation",
+      "body": "Hello Visionary,\n\nEvery success has its story, and behind every email campaign powered by our AI-driven platform, there's a narrative of transformation. Meet [Client Name], a B2B SaaS company just like yours, who saw a [XX]% increase in engagement rates and a [YY]% growth in conversion within months of using our solution.\n\nWhy? Because our platform understands the power of personalization and emotional engagement. By automating not just the how but the why of email marketing, we help businesses craft messages that resonate, connect, and convert.\n\nReady to create your success story?\n\nWarm regards,\n[Your Company Name]",
+      "cta": "Schedule a Demo"
+    },
+    {
+      "email_number": 3,
+      "subject": "Last Chance to Elevate Your Email Strategy",
+      "preview_text": "Last Chance to Elevate Your Email Strategy",
+      "body": "Dear Trailblazer,\n\nAs we round up our insight-driven journey, it's clear that the future of email marketing is here\u2014and it's waiting for you. Whether you're driven by data, inspired by success stories, or focused on results, our AI-powered platform is designed to meet you where you are and take you where you need to go.\n\nWith exclusive early access ending soon, now is the time to act. Don't let hesitation hold you back from transforming your email marketing into a powerhouse of efficiency, engagement, and results.\n\nAre you ready to lead the charge?\n\nBest,\n[Your Company Name]",
+      "cta": "Get Started Now"
+    }
+  ]
+}

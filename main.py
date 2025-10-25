@@ -5,6 +5,8 @@ from datetime import datetime
 from typing import List, Optional
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from dotenv import load_dotenv
 
@@ -23,6 +25,9 @@ app = FastAPI(
     description="AI co-pilot for marketers that transforms email campaign creation from guesswork into a science",
     version="1.0.0"
 )
+
+# Mount static files
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Enable CORS for Lovable frontend
 app.add_middleware(
@@ -58,6 +63,11 @@ class CampaignResponse(BaseModel):
 
 # Routes
 @app.get("/")
+def root():
+    """Serve the frontend"""
+    return FileResponse("static/index.html")
+
+@app.get("/health")
 def health_check():
     """Health check endpoint"""
     return {
